@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="gino.farmfriend.about_us"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/g1">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:alpha="0.5"
+                        android:layout_gravity="center"
+                        card_view:cardCornerRadius="5dp"
+                        android:layout_margin="15dp"
+                        >
+                        <TextView
+                            android:id="@+id/title9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/desc"
+                            android:textColor="#222"
+                            android:textSize="20dp" />
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:background="#fff"
+                        android:layout_margin="3dp"
+                        android:id="@+id/card_view8"
+                        android:layout_width="wrap_content"
+                        android:alpha="0.5"
+                        android:layout_height="56dp"
+                        card_view:cardCornerRadius="0.5dp"
+                        android:elevation="10dp">
+                        <TextView
+                            android:id="@+id/title8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="Developed by:"
+                            android:textColor="#222"
+                            android:textSize="16dp"
+                            android:textStyle="bold"/>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:background="#fff"
+                        android:layout_margin="3dp"
+                        android:id="@+id/card_view"
+                        android:layout_width="fill_parent"
+                        android:alpha="0.5"
+                        android:layout_height="56dp"
+                        card_view:cardCornerRadius="0.5dp"
+                        android:elevation="10dp">
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="     Aravind "
+                            android:textColor="#222"
+                            android:textSize="16dp"
+                            />
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:background="#fff"
+                        android:layout_margin="3dp"
+                        android:id="@+id/card_view1"
+                        android:alpha="0.5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="56dp"
+                        card_view:cardCornerRadius="0.5dp"
+                        android:elevation="10dp">
+                        <TextView
+                            android:id="@+id/title1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="     Humraz"
+                            android:textColor="#222"
+                            android:textSize="16dp" />
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:background="#fff"
+                        android:layout_margin="3dp"
+                        android:id="@+id/card_view2"
+                        android:layout_width="fill_parent"
+                        android:alpha="0.5"
+                        android:layout_height="56dp"
+                        card_view:cardCornerRadius="0.5dp"
+                        android:elevation="10dp">
+                        <TextView
+                            android:id="@+id/title2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="     George"
+                            android:textColor="#222"
+                            android:textSize="16dp" />
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:background="#fff"
+                        android:layout_margin="3dp"
+                        android:id="@+id/card_view3"
+                        android:alpha="0.5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="56dp"
+                        card_view:cardCornerRadius="0.5dp"
+                        android:elevation="10dp">
+                        <TextView
+                            android:id="@+id/title3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="     Hassan"
+                            android:textColor="#222"
+                            android:textSize="16dp" />
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:background="#fff"
+                        android:layout_margin="3dp"
+                        android:id="@+id/card_view7"
+                        android:alpha="0.5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="56dp"
+                        card_view:cardCornerRadius="0.5dp"
+                        android:elevation="10dp">
+                        <TextView
+                            android:id="@+id/title7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="     Abhijith"
+                            android:textColor="#222"
+                            android:textSize="16dp" />
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </FrameLayout>
+
+
+
+
+    </LinearLayout>
+    </RelativeLayout>

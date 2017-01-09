@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Farm Friend</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="desc">An app that bridges the gap between the agricultural sector and information via technology.</string>
+    <string name="title_activity_display_mesg">DisplayMesg</string>
+</resources>

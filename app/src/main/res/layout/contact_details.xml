@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="gino.farmfriend.contact_details"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/pl">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp">
+
+                    </LinearLayout>
+
+
+
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:background="#fff"
+                        android:layout_margin="3dp"
+                        android:id="@+id/card_view"
+                        android:layout_width="fill_parent"
+
+                        android:alpha="0.75"
+                        android:layout_height="56dp"
+                        card_view:cardCornerRadius="0.5dp"
+                        android:elevation="10dp">
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="Kissan Call Centre"
+                            android:textColor="#222"
+                            android:textSize="16dp"
+                            />
+                        <TextView
+                            android:id="@+id/title50"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="1800 180 1551"
+                            android:layout_gravity="end"
+                            android:textColor="#222"
+                            android:textSize="16dp"
+                            />
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:background="#fff"
+                        android:layout_margin="3dp"
+                        android:id="@+id/card_view1"
+                        android:alpha="0.75"
+                        android:layout_width="fill_parent"
+                        android:layout_height="56dp"
+                        card_view:cardCornerRadius="0.5dp"
+                        android:elevation="10dp">
+                        <TextView
+                            android:id="@+id/title1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="Pest Control India Ltd"
+                            android:textColor="#222"
+                            android:textSize="16dp" />
+                        <TextView
+                            android:id="@+id/title51"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="1800 212 2125"
+                            android:layout_gravity="end"
+                            android:textColor="#222"
+                            android:textSize="16dp"
+                            />
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:background="#fff"
+                        android:layout_margin="3dp"
+                        android:id="@+id/card_view2"
+                        android:layout_width="fill_parent"
+                        android:alpha="0.75"
+                        android:layout_height="56dp"
+                        card_view:cardCornerRadius="0.5dp"
+                        android:elevation="10dp">
+                        <TextView
+                            android:id="@+id/title2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="Tata Fertilizers Ltd"
+                            android:textColor="#222"
+                            android:textSize="16dp" />
+                        <TextView
+                            android:id="@+id/title52"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="1800 266 0255"
+                            android:layout_gravity="end"
+                            android:textColor="#222"
+                            android:textSize="16dp"
+                            />
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:background="#fff"
+                        android:layout_margin="3dp"
+                        android:id="@+id/card_view3"
+                        android:alpha="0.75"
+                        android:layout_width="fill_parent"
+                        android:layout_height="56dp"
+                        card_view:cardCornerRadius="0.5dp"
+                        android:elevation="10dp">
+                        <TextView
+                            android:id="@+id/title3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="Chambal Fertilizers Ltd"
+                            android:textColor="#222"
+                            android:textSize="16dp" />
+                        <TextView
+                            android:id="@+id/title53"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="1800 180 5550"
+                            android:layout_gravity="end"
+                            android:textColor="#222"
+                            android:textSize="16dp"
+                            />
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:background="#fff"
+                        android:layout_margin="3dp"
+                        android:id="@+id/card_view7"
+                        android:alpha="0.75"
+                        android:layout_width="fill_parent"
+                        android:layout_height="56dp"
+                        card_view:cardCornerRadius="0.5dp"
+                        android:elevation="10dp">
+                        <TextView
+                            android:id="@+id/title7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="Consumer Court"
+                            android:textColor="#222"
+                            android:textSize="16dp" />
+                        <TextView
+                            android:id="@+id/title54"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="1800 11 4000"
+                            android:layout_gravity="end"
+                            android:textColor="#222"
+                            android:textSize="16dp"
+                            />
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </FrameLayout>
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

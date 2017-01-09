@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="gino.farmfriend.crop_info"
+    >
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/custom"
+            android:paddingLeft="@dimen/custom"
+            android:paddingRight="@dimen/custom"
+            android:paddingTop="@dimen/custom"
+            android:background="#F5F5F5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="226dp"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:layout_alignParentTop="true">
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_gravity="left"
+                    card_view:cardCornerRadius="5dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/rice"
+                        android:alpha="0.45"
+                        android:id="@+id/rice"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginLeft="33dp"
+                        android:text="RICE"
+                        android:textColor="#000"
+                        android:textSize="25dp"
+                        android:layout_height="match_parent" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_gravity="right"
+                    card_view:cardCornerRadius="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true">
+
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/wheat"
+                        android:alpha="0.45"
+                        android:id="@+id/wheat"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginLeft="18dp"
+                        android:text="WHEAT"
+                        android:textColor="#000"
+                        android:textSize="25dp"
+                        android:layout_height="match_parent" />
+
+                </android.support.v7.widget.CardView>
+
+             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:orientation="horizontal"
+                android:layout_alignParentTop="true">
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_gravity="left"
+                    card_view:cardCornerRadius="5dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/maize"
+                        android:alpha="0.45"
+                        android:id="@+id/maize"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginLeft="23dp"
+                        android:text="MAIZE"
+                        android:textColor="#000"
+                        android:textSize="25dp"
+                        android:layout_height="match_parent" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_gravity="right"
+                    card_view:cardCornerRadius="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true">
+
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/banana"
+                        android:alpha="0.45"
+                        android:id="@+id/banana"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="BANANA"
+                        android:textColor="#000"
+                        android:textSize="25dp"
+                        android:layout_height="match_parent" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            </LinearLayout>
+
+            </RelativeLayout>
+    </RelativeLayout>

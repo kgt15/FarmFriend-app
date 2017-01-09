@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gino.farmfriend">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".crop_info"
+            android:label="Crop"
+            android:noHistory="false"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".new_policies"
+            android:label="New Policies"
+            android:noHistory="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".contact_details"
+            android:label="Contact Details"
+            android:noHistory="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".about_us"
+            android:label="About Us"
+            android:noHistory="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".forum"
+            android:label="Forum"
+            android:noHistory="true"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".banana" />
+        <activity android:name=".maize" />
+        <activity android:name=".rice" />
+        <activity android:name=".wheat" />
+        <activity
+            android:name=".DisplayMesg"
+            android:label="@string/title_activity_display_mesg"
+            />
+    </application>
+
+</manifest>
